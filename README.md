@@ -35,7 +35,7 @@ of large datasets of metagenome samples. Currently only Illumina paired-end data
 -	Download the GROOT reference databases by running `groot_download_db.py`<br />
 	This will download the following reference databases to the groot_db directory:<br />
 	`arg-annot`, `card`, `groot-core-db`, `groot-db` and `resfinder`.<br />
--	Index the GROOT reference databases by running `groot_index_db` <br />
+-	Index the GROOT reference databases by running `groot_index_db.py` <br />
 	With default parameters, this will generate the index files for 2x150 bp data.<br />
 
 ### USAGE
@@ -53,13 +53,13 @@ Start the pipeline with the following command:
 -	**'outputdir':**	location of output directory. (optional)<br />
 			When not defined, a subdirectory with a timestamp will be created inside the
 			input directory.<br />
-11
+
 -	**'threads':**	Number of cpu threads used.<br />
 			default = 6<br />
 
 -	**'database':**	Reference database for GROOT resistome profiler.<br />
 			Using the recommended default option will run this analysis twice with
-			both the `resfinder` and `card` databases and store the results in separate directories.<br />
+			both the `resfinder` and `card` databases and store the results in separate directories.
 			Other options that can be used in this parameter are:<br/>
 			`arg-annot`, `card`, `groot-core-db`, `groot-db` and `resfinder`.<br />
 			To redownload the database or download more databases when they are supported by groot
