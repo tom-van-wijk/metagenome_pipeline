@@ -32,6 +32,11 @@ of large datasets of metagenome samples. Currently only Illumina paired-end data
 -	Create path variable META_DB to the GROOT reference subdirectory:<br />
 	`export META_DB=/path/to/metagenome_pipeline/groot_db`<br />
 	(It is recommended to add this command to your ~/.bashrc file)
+-	Download the GROOT reference databases by running `groot_download_db.py`<br />
+	This will download the following reference databases to the groot_db directory:<br />
+	`arg-annot`, `card`, `groot-core-db`, `groot-db` and `resfinder`.<br />
+-	Index the GROOT reference databases by running `groot_index_db` <br />
+	With default parameters, this will generate the index files for 2x150 bp data.<br />
 
 ### USAGE
 
@@ -54,16 +59,14 @@ Start the pipeline with the following command:
 
 -	**'database':**	Reference database for GROOT resistome profiler.<br />
 			Using the recommended default option will run this analysis twice with
-			both the 'resfinder' and 'card' databases and store the results in separate folders.<br />
-			All databases that were available at release of this pipeline are included and
-			can be used in this parameter:<br/>
-			'arg-annot', 'card', 'groot-core-db', 'groot-db' and 'resfinder'.<br />
+			both the `resfinder` and `card` databases and store the results in separate directories.<br />
+			Other options that can be used in this parameter are:<br/>
+			`arg-annot`, `card`, `groot-core-db`, `groot-db` and `resfinder`.<br />
 			To redownload the database or download more databases when they are supported by groot
-			in future updates, please use the 'groot_download_db.pt' script in this repository.<br />
+			in future updates, please use the `groot_download_db.py` script in this repository.<br />
 
 -	**'length'**	Length of the reads in the dataset.<br />
 			Default = 150. This needs to be accurate by amargin of max. 10 bp.<br />
-			This value is referenced to use the correct database index file during the GROOT
-			analysis. The -l=150 index files for all the included reference databases are included. <br/>
+			This value is referenced to use the correct database index file during the GROOT analysis. <br/>
 			If you wish to use a different read length index. Please generate an index file for the
-			database you want to use with the 'groot_index_db.py' script in this repository. <br />
+			databases with the `groot_index_db.py` script in this repository. <br />
