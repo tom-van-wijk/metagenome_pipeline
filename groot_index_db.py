@@ -3,7 +3,7 @@
 
 # Name:         groot_index_db.py
 # Author:       Tom van Wijk - RIVM Bilthoven
-# Date:         24-06-2019
+# Date:         14-10-2019
 # Licence:      GNU General Public License v3.0 (copy provided in directory)
 
 # For detailed information and instruction on how to install and use this software
