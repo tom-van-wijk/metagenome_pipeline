@@ -1,7 +1,8 @@
 # metagenome_pipeline
 
 **Licence:	GNU General Public License v3.0 (copy provided in directory)**<br />
-Author:		Tom van Wijk - RIVM Bilthoven<br />
+Author:		Tom van Wijk<br />
+Contact:	tom_van_wijk@hotmail.com<br />
 
 ### DESCRIPTION
 
