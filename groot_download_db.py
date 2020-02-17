@@ -2,7 +2,7 @@
 
 
 # Name:         groot_download_db.py
-# Author:       Tom van Wijk - RIVM Bilthoven
+# Author:       Tom van Wijk
 # Date:         14-10-2019
 # Licence:      GNU General Public License v3.0 (copy provided in directory)
 
