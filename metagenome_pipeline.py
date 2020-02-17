@@ -2,7 +2,7 @@
 
 
 # Name:         metagenome_pipeline.py
-# Author:       Tom van Wijk - RIVM Bilthoven
+# Author:       Tom van Wijk
 # Date:         13-10-2019
 # Licence:      GNU General Public License v3.0 (copy provided in directory)
 
