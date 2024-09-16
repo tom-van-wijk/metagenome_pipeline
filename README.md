@@ -26,7 +26,7 @@ of large datasets of metagenome samples. Currently only Illumina paired-end data
 ### INSTALLATION
 
 -	Clone the metagenome_pipeline repository to the desired location on your system.<br />
-	`git clone https://github.com/Papos92/metagenome_pipeline.git`
+	`git clone https://github.com/tom-van-wijk/metagenome_pipeline.git`
 -	Add the location of the metagenome_pipeline repository to the PATH variable:<br />
 	`export PATH=$PATH:/path/to/metagenome_pipeline`<br />
 	(It is recommended to add this command to your ~/.bashrc file)
